@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "573673503405",
+    "firebase_url": "https://varkasa-87a1d.firebaseio.com",
+    "project_id": "varkasa-87a1d",
+    "storage_bucket": "varkasa-87a1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573673503405:android:cb8b6d5d44512cf0",
+        "android_client_info": {
+          "package_name": "com.varkasa.varkasa.varkasa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573673503405-9adhrlru270p98kekqavbkjm2o194k9b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.varkasa.varkasa.varkasa",
+            "certificate_hash": "7c4b0dc474b461852fe43d0f6d38d02bbd446814"
+          }
+        },
+        {
+          "client_id": "573673503405-j442hdsebmrkuk10l4at71o9rjggha2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgNPINck9lCxuZIH2f_364aER3C2xMV9o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573673503405-j442hdsebmrkuk10l4at71o9rjggha2k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

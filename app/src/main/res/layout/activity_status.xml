@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.varkasa.varkasa.varkasa.StatusActivity">
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="#1218b7"
+        android:id="@+id/statusToolbar"
+        android:layout_height="wrap_content"></android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/statusName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/statusToolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <Button
+        android:id="@+id/statubutton"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginEnd="39dp"
+        android:padding="5dp"
+        android:textSize="14dp"
+        android:textColor="@color/button_background_color"
+        android:background="@color/toolbarbackfroundColour"
+        android:layout_marginRight="39dp"
+        android:layout_marginTop="23dp"
+        android:text="Status Changes"
+        android:layout_below="@+id/statusName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

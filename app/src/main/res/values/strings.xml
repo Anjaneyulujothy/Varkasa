@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Varkasa</string>
+    <string name="need_a_new_account">Need a new account ?</string>
+    <string name="creat_account">Creat account</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="desplay_name">Desplay Name</string>
+    <string name="log_out">Log Out</string>
+    <string name="create_a_new_account">Create a New Account</string>
+    <string name="create_account">Need a new Account ?</string>
+
+    /*login*/
+    <string name="login_to_your_account">Login to your Account</string>
+    <string name="login">Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">ChatFragment</string>
+</resources>

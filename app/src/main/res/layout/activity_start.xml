@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.varkasa.varkasa.varkasa.StartActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="24dp"
+        android:textColor="@color/Creat_Account_Color"
+        android:layout_centerVertical="true"
+        android:text="welcome to Varkasa Chat app" />
+
+ <Button
+     android:layout_width="250dp"
+     android:layout_height="wrap_content"
+     android:id="@+id/b"
+     android:text="@string/create_account"
+     android:gravity="center"
+     android:padding="10dp"
+     android:textColor="@color/button_background_color"
+     android:background="@color/toolbarbackfroundColour"
+     android:onClick="create"
+     android:layout_marginTop="26dp"
+     android:layout_below="@+id/button2"
+     android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:background="@color/Creat_Account_Color"
+        android:gravity="center"
+        android:onClick="loginPage"
+        android:padding="10dp"
+        android:text="Already have new account"
+        android:textColor="@color/Start_page_creat_new_Account_text_color" />
+</RelativeLayout>

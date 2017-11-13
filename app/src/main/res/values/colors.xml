@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#49BEB7</color>
+    <color name="colorPrimaryDark">#49BEB7</color>
+    <color name="colorAccent">#453c3f</color>
+
+
+
+    <color name="toolbarbackfroundColour">#085F63</color>
+
+    <color name="button_background_color"> #FFA500</color>
+
+    <color name="Creat_Account_Color"> #EF255F</color>
+
+    /* Satrt page colors */
+
+    <color name="Start_page_creat_new_Account_text_color">#ffffff</color>
+
+
+
+</resources>
